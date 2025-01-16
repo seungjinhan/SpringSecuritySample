@@ -34,3 +34,14 @@ Accept: application/json
 ### 문의하기 (인증 불필요)
 GET {{baseUrl}}/contact
 Accept: application/json
+
+### 사용자 등록 (인증 불필요)
+POST {{baseUrl}}/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "dee3@test.com",
+    "pwd": "Deepplin@1234",
+    "role": "user"
+}
